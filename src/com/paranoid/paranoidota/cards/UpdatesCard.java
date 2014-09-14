@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.cards;
+package com.venture.ventureota.cards;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -32,16 +32,16 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.paranoid.paranoidota.MainActivity;
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.updater.GappsUpdater;
-import com.paranoid.paranoidota.updater.RomUpdater;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
-import com.paranoid.paranoidota.updater.Updater.UpdaterListener;
-import com.paranoid.paranoidota.widget.Card;
-import com.paranoid.paranoidota.widget.Item;
-import com.paranoid.paranoidota.widget.Item.OnItemClickListener;
+import com.venture.ventureota.MainActivity;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.updater.GappsUpdater;
+import com.venture.ventureota.updater.RomUpdater;
+import com.venture.ventureota.updater.Updater.PackageInfo;
+import com.venture.ventureota.updater.Updater.UpdaterListener;
+import com.venture.ventureota.widget.Card;
+import com.venture.ventureota.widget.Item;
+import com.venture.ventureota.widget.Item.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;

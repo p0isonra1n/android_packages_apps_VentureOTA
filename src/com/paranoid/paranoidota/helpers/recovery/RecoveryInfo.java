@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers.recovery;
+package com.venture.ventureota.helpers.recovery;
 
 import android.content.Context;
 

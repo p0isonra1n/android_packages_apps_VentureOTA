@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers;
+package com.venture.ventureota.helpers;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -30,9 +30,9 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
+import com.venture.ventureota.IOUtils;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
 
 import java.io.File;
 import java.io.FileOutputStream;

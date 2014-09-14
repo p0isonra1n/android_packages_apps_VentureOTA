@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.widget;
+package com.venture.ventureota.widget;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -33,7 +33,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.paranoid.paranoidota.R;
+import com.venture.ventureota.R;
 
 public class Item extends LinearLayout {
 

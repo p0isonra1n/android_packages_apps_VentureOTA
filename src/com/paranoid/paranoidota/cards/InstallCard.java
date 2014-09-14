@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.cards;
+package com.venture.ventureota.cards;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -32,15 +32,15 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.activities.RequestFileActivity;
-import com.paranoid.paranoidota.activities.RequestFileActivity.RequestFileCallback;
-import com.paranoid.paranoidota.helpers.RebootHelper;
-import com.paranoid.paranoidota.widget.Card;
-import com.paranoid.paranoidota.widget.Item;
-import com.paranoid.paranoidota.widget.Item.OnItemClickListener;
+import com.venture.ventureota.IOUtils;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.activities.RequestFileActivity;
+import com.venture.ventureota.activities.RequestFileActivity.RequestFileCallback;
+import com.venture.ventureota.helpers.RebootHelper;
+import com.venture.ventureota.widget.Card;
+import com.venture.ventureota.widget.Item;
+import com.venture.ventureota.widget.Item.OnItemClickListener;
 
 import java.io.File;
 import java.io.Serializable;

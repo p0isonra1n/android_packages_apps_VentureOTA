@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota;
+package com.venture.ventureota;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -38,9 +38,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.paranoid.paranoidota.helpers.SettingsHelper;
-import com.paranoid.paranoidota.updater.Updater;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.venture.ventureota.helpers.SettingsHelper;
+import com.venture.ventureota.updater.Updater;
+import com.venture.ventureota.updater.Updater.PackageInfo;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -57,11 +57,11 @@ import java.util.Properties;
 
 public class Utils {
 
-    public static final String FILES_INFO = "com.paranoid.paranoidota.Utils.FILES_INFO";
-    public static final String CHECK_DOWNLOADS_FINISHED = "com.paranoid.paranoidota.Utils.CHECK_DOWNLOADS_FINISHED";
+    public static final String FILES_INFO = "com.venture.ventureota.Utils.FILES_INFO";
+    public static final String CHECK_DOWNLOADS_FINISHED = "com.venture.ventureota.Utils.CHECK_DOWNLOADS_FINISHED";
     public static final String CHECK_DOWNLOADS_ID = "com.paranoid.paranoidota.Utils.CHECK_DOWNLOADS_ID";
     public static final String MOD_VERSION = "ro.modversion";
-    public static final String RO_PA_VERSION = "ro.pa.version";
+    public static final String RO_PA_VERSION = "ro.venture.version";
     public static final int ROM_ALARM_ID = 122303221;
     public static final int GAPPS_ALARM_ID = 122303222;
 

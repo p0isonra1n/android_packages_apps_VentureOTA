@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota;
+package com.venture.ventureota;
 
 import java.io.Serializable;
 
@@ -47,10 +47,10 @@ import java.io.Serializable;
 public class Version implements Serializable {
 
     private final String[] STATIC_REMOVE = {
-            ".zip", "pa_"
+            ".zip", "venture_"
     };
     private final String[] PHASES = {
-            "ALPHA", "BETA", "RC", ""
+            "A", "B", "R", "T", ""
     };
 
     private static final String SEPARATOR = "-";

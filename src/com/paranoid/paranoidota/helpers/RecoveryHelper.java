@@ -17,16 +17,16 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers;
+package com.venture.ventureota.helpers;
 
 import android.content.Context;
 import android.util.SparseArray;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.helpers.recovery.CwmBasedRecovery;
-import com.paranoid.paranoidota.helpers.recovery.RecoveryInfo;
-import com.paranoid.paranoidota.helpers.recovery.TwrpRecovery;
+import com.venture.ventureota.IOUtils;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.helpers.recovery.CwmBasedRecovery;
+import com.venture.ventureota.helpers.recovery.RecoveryInfo;
+import com.venture.ventureota.helpers.recovery.TwrpRecovery;
 
 public class RecoveryHelper {
 

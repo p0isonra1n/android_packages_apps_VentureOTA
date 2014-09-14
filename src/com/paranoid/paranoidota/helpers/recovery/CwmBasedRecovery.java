@@ -17,15 +17,15 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.helpers.recovery;
+package com.venture.ventureota.helpers.recovery;
 
 import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
 import android.os.storage.StorageManager;
 
-import com.paranoid.paranoidota.IOUtils;
-import com.paranoid.paranoidota.Utils;
+import com.venture.ventureota.IOUtils;
+import com.venture.ventureota.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
