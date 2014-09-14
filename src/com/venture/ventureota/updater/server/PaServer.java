@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater.server;
+package com.venture.ventureota.updater.server;
 
 import com.venture.ventureota.Version;
 import com.venture.ventureota.updater.Server;
