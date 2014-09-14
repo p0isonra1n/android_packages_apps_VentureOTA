@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota;
+package com.venture.ventureota;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

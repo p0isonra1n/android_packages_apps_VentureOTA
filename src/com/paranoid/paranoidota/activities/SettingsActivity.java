@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.activities;
+package com.venture.ventureota.activities;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -35,12 +35,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.URLStringReader;
-import com.paranoid.paranoidota.URLStringReader.URLStringReaderListener;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.helpers.SettingsHelper;
-import com.paranoid.paranoidota.widget.Preference;
+import com.venture.ventureota.R;
+import com.venture.ventureota.URLStringReader;
+import com.venture.ventureota.URLStringReader.URLStringReaderListener;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.helpers.SettingsHelper;
+import com.venture.ventureota.widget.Preference;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

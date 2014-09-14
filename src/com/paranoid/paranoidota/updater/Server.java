@@ -17,10 +17,10 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater;
+package com.venture.ventureota.updater;
 
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.venture.ventureota.Version;
+import com.venture.ventureota.updater.Updater.PackageInfo;
 
 import org.json.JSONObject;
 

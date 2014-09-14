@@ -19,10 +19,10 @@
 
 package com.paranoid.paranoidota.updater.server;
 
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.updater.Server;
-import com.paranoid.paranoidota.updater.UpdatePackage;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.venture.ventureota.Version;
+import com.venture.ventureota.updater.Server;
+import com.venture.ventureota.updater.UpdatePackage;
+import com.venture.ventureota.updater.Updater.PackageInfo;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

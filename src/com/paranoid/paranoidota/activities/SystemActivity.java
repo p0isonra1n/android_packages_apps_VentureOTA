@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.activities;
+package com.venture.ventureota.activities;
 
 import android.app.Activity;
 import android.content.res.Resources;
@@ -27,12 +27,12 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.updater.GappsUpdater;
-import com.paranoid.paranoidota.updater.RomUpdater;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
-import com.paranoid.paranoidota.updater.Updater.UpdaterListener;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.updater.GappsUpdater;
+import com.venture.ventureota.updater.RomUpdater;
+import com.venture.ventureota.updater.Updater.PackageInfo;
+import com.venture.ventureota.updater.Updater.UpdaterListener;
 
 public class SystemActivity extends Activity implements UpdaterListener {
 

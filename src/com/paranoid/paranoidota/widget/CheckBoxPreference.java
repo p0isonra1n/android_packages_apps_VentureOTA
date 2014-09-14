@@ -17,13 +17,13 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.widget;
+package com.venture.ventureota.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.paranoid.paranoidota.Utils;
+import com.venture.ventureota.Utils;
 
 public class CheckBoxPreference extends android.preference.CheckBoxPreference {
 

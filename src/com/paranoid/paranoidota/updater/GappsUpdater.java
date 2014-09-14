@@ -17,15 +17,15 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater;
+package com.venture.ventureota.updater;
 
 import android.content.Context;
 
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.helpers.SettingsHelper;
-import com.paranoid.paranoidota.updater.server.GooServer;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.Version;
+import com.venture.ventureota.helpers.SettingsHelper;
+import com.venture.ventureota.updater.server.GooServer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -34,10 +34,10 @@ import java.util.Properties;
 public class GappsUpdater extends Updater {
 
     private static final String PROPERTIES_FILE = "/system/etc/g.prop";
-    private static final String VERSION_PROPERTY = "ro.addon.pa_version";
+    private static final String VERSION_PROPERTY = "ro.addon.venture_version";
     private static final String VERSION_PROPERTY_EXT = "ro.addon.version";
     private static final String PLATFORM_PROPERTY = "ro.build.version.release";
-    private static final String TYPE_PROPERTY = "ro.addon.pa_type";
+    private static final String TYPE_PROPERTY = "ro.addon.venture_type";
 
     private Version mRomVersion;
     private String mPlatform;

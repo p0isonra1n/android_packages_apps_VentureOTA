@@ -17,16 +17,16 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota.updater.server;
+package com.venture.ventureota.updater.server;
 
 import android.content.Context;
 
-import com.paranoid.paranoidota.R;
-import com.paranoid.paranoidota.Utils;
-import com.paranoid.paranoidota.Version;
-import com.paranoid.paranoidota.updater.Server;
-import com.paranoid.paranoidota.updater.UpdatePackage;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
+import com.venture.ventureota.R;
+import com.venture.ventureota.Utils;
+import com.venture.ventureota.Version;
+import com.venture.ventureota.updater.Server;
+import com.venture.ventureota.updater.UpdatePackage;
+import com.venture.ventureota.updater.Updater.PackageInfo;
 
 import org.json.JSONArray;
 import org.json.JSONException;
