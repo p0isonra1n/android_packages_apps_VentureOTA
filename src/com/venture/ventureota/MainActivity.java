@@ -17,7 +17,7 @@
  * along with Paranoid OTA.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.paranoid.paranoidota;
+package com.venture.ventureota;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -47,22 +47,22 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.paranoid.paranoidota.Utils.NotificationInfo;
-import com.paranoid.paranoidota.activities.SettingsActivity;
-import com.paranoid.paranoidota.cards.DownloadCard;
-import com.paranoid.paranoidota.cards.InstallCard;
-import com.paranoid.paranoidota.cards.SystemCard;
-import com.paranoid.paranoidota.cards.UpdatesCard;
-import com.paranoid.paranoidota.helpers.DownloadHelper;
-import com.paranoid.paranoidota.helpers.DownloadHelper.DownloadCallback;
-import com.paranoid.paranoidota.helpers.RebootHelper;
-import com.paranoid.paranoidota.helpers.RecoveryHelper;
-import com.paranoid.paranoidota.updater.GappsUpdater;
-import com.paranoid.paranoidota.updater.RomUpdater;
-import com.paranoid.paranoidota.updater.Updater;
-import com.paranoid.paranoidota.updater.Updater.PackageInfo;
-import com.paranoid.paranoidota.updater.Updater.UpdaterListener;
-import com.paranoid.paranoidota.widget.Card;
+import com.venture.ventureota.Utils.NotificationInfo;
+import com.venture.ventureota.activities.SettingsActivity;
+import com.venture.ventureota.cards.DownloadCard;
+import com.venture.ventureota.cards.InstallCard;
+import com.venture.ventureota.cards.SystemCard;
+import com.venture.ventureota.cards.UpdatesCard;
+import com.venture.ventureota.helpers.DownloadHelper;
+import com.venture.ventureota.helpers.DownloadHelper.DownloadCallback;
+import com.venture.ventureota.helpers.RebootHelper;
+import com.venture.ventureota.helpers.RecoveryHelper;
+import com.venture.ventureota.updater.GappsUpdater;
+import com.venture.ventureota.updater.RomUpdater;
+import com.venture.ventureota.updater.Updater;
+import com.venture.ventureota.updater.Updater.PackageInfo;
+import com.venture.ventureota.updater.Updater.UpdaterListener;
+import com.venture.ventureota.widget.Card;
 
 import java.util.ArrayList;
 import java.util.List;
