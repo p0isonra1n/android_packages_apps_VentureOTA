@@ -19,9 +19,13 @@
 
 package com.venture.ventureota.cards;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
@@ -31,6 +35,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.venture.ventureota.MainActivity;
 import com.venture.ventureota.R;
@@ -99,8 +104,37 @@ public class UpdatesCard extends Card implements UpdaterListener, OnCheckedChang
 
             @Override
             public void onClick(int id) {
-                MainActivity activity = (MainActivity) getContext();
-                activity.checkUpdates();
+            	SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(getContext());
+            	if(settings.getBoolean("deviceselect", false)){
+            		final CharSequence supportedDevices[] = new CharSequence[] {"(default)", "hammerhead", "bacon", "mako", "m8"};
+
+                	AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                	builder.setTitle("Pick a device");
+                	builder.setItems(supportedDevices, new DialogInterface.OnClickListener() {
+                	    @Override
+                	    public void onClick(DialogInterface dialog, int which) {
+                	        if(which == 0){
+                	        	SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getContext()).edit();
+                	        	editor.putString("device", null);
+                	        	editor.apply();
+                	        }else{
+                	        	SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getContext()).edit();
+                	        	editor.putString("device", supportedDevices[which].toString());
+                	        	editor.apply();
+                	        }
+                	        MainActivity activity = (MainActivity) getContext();
+                            activity.checkUpdates();
+                	    }
+                	});
+                	builder.show();
+            	}else{
+            		//Clear device select value
+            		SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getContext()).edit();
+    	        	editor.putString("device", null);
+    	        	editor.apply();
+                    MainActivity activity = (MainActivity) getContext();
+                    activity.checkUpdates();
+            	}
             }
 
         });

@@ -137,6 +137,9 @@
     <string name="settings_checkgapps_summary">Check also for PA specific Google apps</string>
     <string name="settings_gappstype_title">Google apps type</string>
     <string name="settings_gappstype_summary">Choose between full, mini, micro and stock gapps package</string>
+
+    <string name="settings_deviceselect_title">[Advanced] Allow Select Device</string>
+    <string name="settings_deviceselect_summary">Select device to test OTA</string>
     <string name="gapps_type_full">Full package</string>
     <string name="gapps_type_mini">Mini package</string>
     <string name="gapps_type_stock">Stock package</string>

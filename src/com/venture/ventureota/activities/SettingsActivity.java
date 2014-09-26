@@ -55,6 +55,7 @@ public class SettingsActivity extends PreferenceActivity implements
     private CheckBoxPreference mCheckGapps;
     private ListPreference mGappsType;
     private Preference mGoo;
+    private CheckBoxPreference mDeviceSelect;
 
     @Override
     @SuppressWarnings("deprecation")
@@ -72,10 +73,12 @@ public class SettingsActivity extends PreferenceActivity implements
         mCheckGapps = (CheckBoxPreference) findPreference(SettingsHelper.PROPERTY_CHECK_GAPPS);
         mGappsType = (ListPreference) findPreference(SettingsHelper.PROPERTY_GAPPS_TYPE);
         mGoo = (Preference) findPreference("goo");
+        mDeviceSelect = (CheckBoxPreference) findPreference(SettingsHelper.PROPERTY_DEVICE_SELECT);
 
         mCheckTime.setValue(String.valueOf(mSettingsHelper.getCheckTime()));
         mCheckGapps.setChecked(mSettingsHelper.getCheckGapps());
         mGappsType.setValue(String.valueOf(mSettingsHelper.getGappsType()));
+        mDeviceSelect.setChecked(mSettingsHelper.getDeviceSelect());
 
         updateSummaries();
 
