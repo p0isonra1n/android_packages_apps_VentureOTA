@@ -44,6 +44,10 @@ public class SystemCard extends Card {
         TextView romView = (TextView) findLayoutViewById(R.id.rom);
         romView.setText(res.getString(R.string.system_rom,
                 romUpdater.getVersion().toString(false)));
+        
+        TextView maintainerView = (TextView) findLayoutViewById(R.id.maintainer);
+        maintainerView.setText(res.getString(R.string.system_maintainer,
+                romUpdater.getMaintainer()));
 
         TextView gappsView = (TextView) findLayoutViewById(R.id.gapps);
         gappsView.setText(res.getString(R.string.system_gapps, gappsUpdater.getType(), gappsUpdater
