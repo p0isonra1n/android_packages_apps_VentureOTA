@@ -20,6 +20,9 @@
 package com.venture.ventureota.updater;
 
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+import android.widget.Toast;
 
 import com.venture.ventureota.R;
 import com.venture.ventureota.Utils;
@@ -42,11 +45,17 @@ public class RomUpdater extends Updater {
     }
 
     private static String getDevice(Context context) {
-        String device = Utils.getProp(PROPERTY_DEVICE);
-        if (device == null || device.isEmpty()) {
-            device = Utils.getProp(PROPERTY_DEVICE_EXT);
-            device = Utils.translateDeviceName(context, device);
-        }
+    	SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context); 
+    	String selectDevice = prefs.getString("device", null);
+    	String device = Utils.getProp(PROPERTY_DEVICE);
+    	if(selectDevice != null){
+    		device = selectDevice;
+    	}else{
+    		if (device == null || device.isEmpty()) {
+    			device = Utils.getProp(PROPERTY_DEVICE_EXT);
+    			device = Utils.translateDeviceName(context, device);
+    		}
+    	}
         return device == null ? "" : device.toLowerCase();
     }
 

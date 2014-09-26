@@ -51,6 +51,11 @@
             android:title="@string/settings_goo"
             android:summary="@string/settings_login_goo" />
 
+        <com.venture.ventureota.widget.CheckBoxPreference
+            android:key="deviceselect"
+            android:title="@string/settings_deviceselect_title"
+            android:summary="@string/settings_deviceselect_summary" />
+
     </com.venture.ventureota.widget.PreferenceCategory>
 
 </PreferenceScreen>
