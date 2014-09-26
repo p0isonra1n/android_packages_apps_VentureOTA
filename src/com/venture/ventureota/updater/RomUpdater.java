@@ -32,6 +32,14 @@ public class RomUpdater extends Updater {
     public static String getVersionString(Context context) {
         return getDevice(context) + "-" + Utils.getProp(Utils.MOD_VERSION);
     }
+    
+    public String getMaintainer(){
+    	String maintainer = Utils.getProp(PROPERTY_MAINTAINER);
+    	if(maintainer == null || maintainer.isEmpty()){
+    		maintainer = "Unknown";
+    	}
+    	return maintainer;
+    }
 
     private static String getDevice(Context context) {
         String device = Utils.getProp(PROPERTY_DEVICE);

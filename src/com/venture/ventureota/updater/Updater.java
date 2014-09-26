@@ -68,6 +68,7 @@ public abstract class Updater implements Response.Listener<JSONObject>, Response
 
     public static final String PROPERTY_DEVICE = "ro.venture.device";
     public static final String PROPERTY_DEVICE_EXT = "ro.product.device";
+    public static final String PROPERTY_MAINTAINER = "ro.venture.maintainer";
 
     public static final int NOTIFICATION_ID = 122303225;
 
