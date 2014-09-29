@@ -106,7 +106,7 @@ public class UpdatesCard extends Card implements UpdaterListener, OnCheckedChang
             public void onClick(int id) {
             	SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(getContext());
             	if(settings.getBoolean("deviceselect", false)){
-            		final CharSequence supportedDevices[] = new CharSequence[] {"(default)", "hammerhead", "bacon", "mako", "m8"};
+            		final CharSequence supportedDevices[] = new CharSequence[] {"(default)", "hammerhead",  "mako", "grouper", "flo", "manta", "i9100", "bacon", "toro", "toroplus", "maguro", "m8"};
 
                 	AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
                 	builder.setTitle("Pick a device");
